@@ -28,10 +28,10 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
         className="absolute inset-0 flex flex-col items-center justify-center text-center"
       >
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4 drop-shadow-2xl">
-          Laveena Chetwani.
+          Laveena Chetwani
         </h1>
         <p className="text-xl md:text-3xl text-neutral-300 font-light drop-shadow-lg">
-          UI/UX Designer.
+          Product Designer
         </p>
       </motion.div>
 
