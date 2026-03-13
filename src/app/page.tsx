@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <ScrollyCanvas />
+      <Projects />
       <About />
       <Experience />
-      <Projects />
       <Initiatives />
     </main>
   );
