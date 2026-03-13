@@ -76,7 +76,7 @@ export default function About() {
             viewport={{ once: true, margin: "-100px" }}
             className="text-3xl md:text-5xl font-bold mb-12 tracking-tight"
           >
-            Skills & Tools
+            Skills
           </motion.h3>
           
           <div className="space-y-8">
@@ -104,17 +104,6 @@ export default function About() {
               </p>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-            >
-              <h4 className="text-xl font-semibold mb-3 text-neutral-200">Tools</h4>
-              <p className="text-neutral-400 font-light leading-relaxed">
-                Figma, Framer, Canva, ChatGPT, Figma Make
-              </p>
-            </motion.div>
           </div>
         </div>
 

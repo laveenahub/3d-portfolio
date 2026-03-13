@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <ScrollyCanvas />
-      <Projects />
-      <Initiatives />
       <About />
       <Experience />
+      <Projects />
+      <Initiatives />
     </main>
   );
 }
